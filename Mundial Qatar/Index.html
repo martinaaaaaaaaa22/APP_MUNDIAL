@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Index</title>
+</head>
+<body>
+    <div class="contenedor">
+
+        <div class="logo_qatar" >
+            <img class="logo" src="./qatar-2022-fifa-world-cup-logo-hd-png-11649451618xooi1vfwgs-removebg-preview (1).png">
+        </div>
+
+        <div class="card_1">
+
+            <div class="card">
+                <div class="card-image"></div>
+                <div class="card-description">
+                    <p class="text-title">Axion Energy</p>
+                    <p class="text-body">Info.</p>
+                </div>
+                </div>
+        </div>
+
+        <div class="card2">
+
+            <div class="card_2">
+                <div class="card-image_2"></div>
+                <div class="card-description_2">
+                    <p class="text-title_2">Disco supermercado</p>
+                    <p class="text-body_2">Info.</p>
+                </div>
+                </div>
+        </div>
+
+        <div class="card3">
+
+            <div class="card_3">
+                <div class="card-image_3"></div>
+                <div class="card-description_3">
+                    <p class="text-title_3">Kiosco City</p>
+                    <p class="text-body_3">Info.</p>
+                </div>
+                </div>
+        </div>
+
+
+        
+
+    </div>
+
+    
+</body>
+
+<style>
+    body{
+        background-image: url(./Portada\ para\ Facebook\ con\ fotografía\ y\ elementos\ verde\ neón.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: mifuente;
+        
+    }
+
+    @font-face {
+        font-family: mifuente;
+        src: url(./fuentes/Qatar2022/Qatar2022Arabic-Bold.ttf);
+
+    }
+
+    .contenedor{
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(3,435px);
+        grid-template-rows: repeat(5,100px);
+
+        
+    }
+
+    .contenedor .logo_qatar{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        animation: swashIn;
+
+  
+    }
+
+    .logo{
+        max-width: 180%;
+        max-height: 180%;
+        margin-top: 15%;
+        
+        
+
+    }
+
+    /* !!!!! card 1!!!!! */
+        /* From uiverse.io by @alexruix */
+
+    .contenedor .card_1{
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        display: grid;
+        justify-items:center;
+        align-items: center;
+        margin-top: 9.5%;
+       
+    }
+    .card {
+        height: 254px;
+        width: 254px;
+        position: relative;
+        transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 1em;
+        box-shadow: 0 0 20px 8px #00000036;
+
+        
+    }
+
+   
+
+    /*Image*/
+    .card-image {
+        height: 100%;
+        width: 100%;
+        filter:opacity(0.4) drop-shadow(0 0 black);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 10px;
+        background-image: url(https://grupoalt.com/images/layout/home-slider-01.jpg);
+    }
+
+    /*Description */
+    .card-description {
+        display: flex;
+        position: absolute;
+        gap: 1em;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        height: 70%;
+        width: 95%;
+        bottom: 0;
+        border-radius: 1em 1em 0 0;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        padding: 1rem;
+    }
+
+    /*Text*/
+    .text-title {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .text-body {
+        font-size: 1em;
+        line-height: 150%;
+    }
+
+
+    /* Hover states */
+
+    .card:hover .card-description {
+        transform: translateY(20%);
+        visibility: hidden;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .card:hover .card-image{
+        filter:opacity(1) drop-shadow(0 0 black);
+    }
+
+
+    /* !!!!! card 2!!!!! */
+        /* From uiverse.io by @alexruix */
+
+        .contenedor .card2{
+        grid-column-start: 1;
+        grid-column-end: 4;
+
+        grid-row-start: 2;
+        grid-row-end: 3;
+
+        display: grid;
+        justify-items:center;
+        align-items: center;
+        margin-top: 12%;
+       
+    }
+    .card_2 {
+        height: 254px;
+        width: 254px;
+        position: relative;
+        transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 1em;
+        box-shadow: 0 0 20px 8px #00000036;
+
+        
+    }
+
+   
+
+    /*Image*/
+    .card-image_2 {
+        height: 100%;
+        width: 100%;
+        filter:opacity(0.4) drop-shadow(0 0 black);
+        background-size: cover;
+        position: absolute;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 10px;
+        background-image: url(https://www.resumendelaregion.com/wp-content/uploads/2014/10/PA201268-1.jpg);
+    }
+
+    /*Description */
+    .card-description_2 {
+        display: flex;
+        position: absolute;
+        gap: 1em;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        height: 70%;
+        width: 95%;
+        bottom: 0;
+        border-radius: 1em 1em 0 0;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        padding: 1rem;
+    }
+
+    /*Text*/
+    .text-title_2 {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .text-body_2 {
+        font-size: 1em;
+        line-height: 150%;
+    }
+
+
+    /* Hover states */
+
+    .card_2:hover .card-description_2 {
+        transform: translateY(20%);
+        visibility: hidden;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .card_2:hover .card-image_2{
+        filter:opacity(1) drop-shadow(0 0 black);
+    }
+
+
+    /* !!!!! card 3!!!!! */
+        /* From uiverse.io by @alexruix */
+
+        .contenedor .card3{
+        grid-column-start: 3;
+        grid-column-end: 4;
+
+        grid-row-start: 3;
+        grid-row-end: 4;
+
+        display: grid;
+        justify-items:center;
+        align-items: center;
+        margin-top: 9.5%;
+       
+    }
+    .card_3 {
+        height: 254px;
+        width: 254px;
+        position: relative;
+        transition: all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 1em;
+        box-shadow: 0 0 20px 8px #00000036;
+
+        
+    }
+
+   
+
+    /*Image*/
+    .card-image_3 {
+        height: 100%;
+        width: 100%;
+        filter:opacity(0.4) drop-shadow(0 0 black);
+        background-size: cover;
+        position: absolute;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        border-radius: 10px;
+        background-image: url(https://i.pinimg.com/736x/14/47/b3/1447b3bd503e0f661c28a6bb1630a418--cordoba-avenida.jpg);
+    }
+
+    /*Description */
+    .card-description_3 {
+        display: flex;
+        position: absolute;
+        gap: 1em;
+        flex-direction: column;
+        background-color: #f5f5f5;
+        height: 70%;
+        width: 95%;
+        bottom: 0;
+        border-radius: 1em 1em 0 0;
+        transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+        padding: 1rem;
+    }
+
+    /*Text*/
+    .text-title_3 {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+
+    .text-body_3 {
+        font-size: 1em;
+        line-height: 150%;
+    }
+
+
+    /* Hover states */
+
+    .card_3:hover .card-description_3 {
+        transform: translateY(20%);
+        visibility: hidden;
+        background-color: transparent;
+        color: transparent;
+    }
+
+    .card_3:hover .card-image_3{
+        filter:opacity(1) drop-shadow(0 0 black);
+    }
+
+
+    /* """"""""" MEDIA QUERIES """""""""" */
+
+    @media(max-width:)
+    
+
+
+    
+
+
+        
+
+</style>
+</html>
